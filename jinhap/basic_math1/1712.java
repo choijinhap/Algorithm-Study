@@ -1,4 +1,4 @@
-package jinhap;
+package jinhap.basic_math1;
 
 import java.util.Scanner;
 
