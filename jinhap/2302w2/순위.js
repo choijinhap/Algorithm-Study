@@ -1,4 +1,5 @@
 function solution(n, results) {
+	let answer = 0;
 	const adj = Array.from({ length: n + 1 }, () => Array.from({ length: n + 1 }, () => 0));
 	const visited = Array.from({ length: n + 1 }, () => Array.from({ length: n + 1 }, () => false));
 
